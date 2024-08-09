@@ -5,7 +5,7 @@ let isAnagram = function(s, t) {
     }
 
     const charMap = new Map()
-    //add to the hap, the characters of s and how many times they appear (a: 3, g: 5)
+    //add to the map, the characters of s and how many times they appear (a: 3, g: 5)
     for (let char of s) {
         charMap.set(char, (charMap.get(char) || 0) + 1)
     }
